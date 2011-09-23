@@ -11,5 +11,5 @@ Functions
 ---------
 
  * `getPlatformArch`: return an object with 'platform' and 'arch' fields.
- * `requireBinary`: used to load binary modules
+ * `binaryModule`: return the name  of a binary module
  * `parseCookie`: parse a 'cookie' formatted string and return an object.

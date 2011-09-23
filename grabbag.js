@@ -19,11 +19,11 @@ function getPlatformArch() {
     var platform = process.platform
     var arch
     if (process.arch) {
-	arch = process.arch
+        arch = process.arch
     } else if (process.env.NODE_ARCH) {
-	arch = process.env.NODE_ARCH
+        arch = process.env.NODE_ARCH
     } else {
-	arch = 'x64'
+        arch = 'x64'
     }
 
     return {'platform': platform, 'arch': arch}
@@ -78,8 +78,8 @@ exports.binaryModule = binaryModule
  * See: http://tools.ietf.org/html/rfc6265
  */
 function parseCookie(cookie) {
-    if (cookie === undefined) {
-	return {}
+    if (cookie === undefi
+        return {}
     }
 
     var parts = cookie.split('=')
